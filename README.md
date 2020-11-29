@@ -16,6 +16,26 @@ This is Instagram's private API. It has all the features the Instagram app has, 
 ### Via Composer
 
 ```sh
+ "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+		{              
+            "type": "package",
+            "package": {
+              "name": "mgp25/instagram-php",
+              "version": "2.0",
+              "source": {
+                "url": "https://github.com/milad-ghiami/instagram-php",
+                "type": "git",
+                "reference": "main"
+              }
+            }
+        }
+    ]
+
+
 composer require mgp25/instagram-php
 ```
 
